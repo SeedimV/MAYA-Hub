@@ -40,4 +40,4 @@ Perfectly designed for small to mid-sized proxy server hubs, **MAYA: Hub** deliv
 All features are customizable via the configuration file, allowing you to adjust settings to fit your hub's unique requirements.
 
 ## License
-This plugin is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html). You are free to use, modify, and distribute the plugin, but any derivative works must also be licensed under the same terms.
+This plugin is licensed under the [GNU General Public License v3.0](https://github.com/SeedimV/MAYA-Hub/blob/master/LICENSE). You are free to use, modify, and distribute the plugin, but any derivative works must also be licensed under the same terms.
