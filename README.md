@@ -30,7 +30,7 @@ Perfectly designed for small to mid-sized proxy server hubs, **MAYA: Hub** deliv
 
 - `/setspawn`: Set the spawn point for your hub world.
 - `/spawn`: Teleport to the hub spawn point.
-- `/fly`: Toggle flight mode for yourself or others.
+- `/fly`: Toggle flight mode.
 - `/toggleedit`: Temporarily bypass world protection for editing.
 
 ## Tailored for Proxy Server Hubs
