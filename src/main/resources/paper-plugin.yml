@@ -1,0 +1,7 @@
+name: MayaHub
+version: '1.0.0'
+main: me.seedim.mayaHub.MayaHub
+authors:
+  - Seedim
+description: Where Worlds Converge
+api-version: '1.21'

@@ -1,0 +1,63 @@
+#####################################################
+#                                                   #
+#            MAYA: HUB PLUGIN CONFIG                #
+#                                                   #
+#            "Where Worlds Converge"                #
+#                                                   #
+#####################################################
+
+# New options will not be automatically added to this file.
+# If and option is missing, the default value will be applied.
+
+# Enable or disable world protection:
+# - true: Prevents players without 'MayaHub.editmode' permissions from breaking or interacting with blocks.
+# - false: Players can interact and break blocks freely.
+world-protection: true
+
+# Disable hunger mechanics:
+# - true: Players won't lose hunger.
+# - false: Hunger mechanics remain enabled.
+disable-hunger: true
+
+# Disable player damage:
+# - true: Players cannot take damage from any source.
+# - false: Players can take damage as usual.
+disable-player-damage: true
+
+# World spawn point settings:
+# Define the spawn location for the world.
+# Use the /setspawn command in-game to set these values automatically.
+spawn:
+  world:
+  x:
+  y:
+  z:
+  pitch:
+  yaw:
+
+chat:
+  # NOTE: All chat messages (join, quit, and broadcast) support MiniMessage formatting for advanced styling.
+
+  # Enable or disable broadcast messages in chat:
+  # - true: Broadcast messages will appear in the chat.
+  # - false: Broadcast messages will not appear.
+  enable-broadcasts: false
+
+  # Interval for broadcast messages in ticks:
+  # 1 second = 20 ticks, so 6000 ticks = 5 minutes.
+  broadcast-interval: 6000
+
+  # List of broadcast messages to display in the chat.
+  # Add each message as a new entry in the list.
+  broadcast-messages:
+    - 'This is an example broadcast message.'
+    - 'Thank you for using MAYA: Hub!'
+
+  # Placeholders available for join and quit messages:
+  # - %player%: Displays the player's name.
+
+  # Message displayed when a player joins the server.
+  join-message: '<#aaaaaa>[<#55ff55>+<#aaaaaa>] %player%'
+
+  # Message displayed when a player leaves the server.
+  quit-message: '<#aaaaaa>[<#ff5555>-<#aaaaaa>] %player%'
