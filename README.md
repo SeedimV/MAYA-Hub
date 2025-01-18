@@ -20,6 +20,7 @@ Ever wanted to create a server with minimal effort while still delivering a poli
   Seamlessly manage your hub's spawn location with simple commands.
 
 - **Customizable Chat**
+  - Fully customizable chat messages using MiniMessage formatting.
   - Fully customizable join and quit messages using MiniMessage formatting.
   - Automated broadcast system with configurable messages and intervals.
 

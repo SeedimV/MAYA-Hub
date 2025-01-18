@@ -1,4 +1,4 @@
-package me.seedim.mayaHub;
+package Utils;
 
 /*
  * This Metrics class was auto-generated and can be copied into your project if you are

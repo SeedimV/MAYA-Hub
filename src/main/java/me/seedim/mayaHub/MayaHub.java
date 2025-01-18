@@ -1,5 +1,7 @@
 package me.seedim.mayaHub;
 
+import Utils.Metrics;
+import Utils.UpdateChecker;
 import io.papermc.paper.command.brigadier.Commands;
 import io.papermc.paper.plugin.lifecycle.event.LifecycleEventManager;
 import io.papermc.paper.plugin.lifecycle.event.types.LifecycleEvents;
@@ -24,13 +26,16 @@ public final class MayaHub extends JavaPlugin {
     public void onEnable() {
         instance = this;
 
+        // Check for updates
+        UpdateChecker.checkUpdate();
+
         // Save default config if it doesn't exist
         saveDefaultConfig();
         // Load the config into memory
         reloadConfig();
 
         // Initialize bStats
-        new me.seedim.mayaHub.Metrics(this, 24473);
+        new Metrics(this, 24473);
 
         // Register events
         Bukkit.getPluginManager().registerEvents(new ConnectionListener(), this); // Join, quit and respawn
