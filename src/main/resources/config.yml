@@ -36,7 +36,7 @@ spawn:
   yaw:
 
 chat:
-  # NOTE: All chat messages (join, quit, and broadcast) support MiniMessage formatting for advanced styling.
+  # NOTE: All chat messages (join, quit, chat-format, and broadcasts) support MiniMessage formatting for advanced styling.
 
   # Enable or disable broadcast messages in chat:
   # - true: Broadcast messages will appear in the chat.
@@ -52,6 +52,14 @@ chat:
   broadcast-messages:
     - 'This is an example broadcast message.'
     - 'Thank you for using MAYA: Hub!'
+
+  # Placeholder available for chat format:
+  # - %player%: Displays the player's name
+  # - %message%: Display the message content
+
+  # Chat message format
+  chat-format: '%player%: %message%'
+
 
   # Placeholders available for join and quit messages:
   # - %player%: Displays the player's name.
