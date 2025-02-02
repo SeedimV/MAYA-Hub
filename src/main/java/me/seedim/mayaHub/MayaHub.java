@@ -1,7 +1,7 @@
 package me.seedim.mayaHub;
 
 import Utils.Metrics;
-import Utils.UpdateChecker;
+import Utils.UpdateManager;
 import io.papermc.paper.command.brigadier.Commands;
 import io.papermc.paper.plugin.lifecycle.event.LifecycleEventManager;
 import io.papermc.paper.plugin.lifecycle.event.types.LifecycleEvents;
@@ -27,7 +27,7 @@ public final class MayaHub extends JavaPlugin {
         instance = this;
 
         // Check for updates
-        UpdateChecker.checkUpdate();
+        UpdateManager.checkUpdates();
 
         // Save default config if it doesn't exist
         saveDefaultConfig();

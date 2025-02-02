@@ -10,9 +10,9 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
-public class UpdateChecker {
+public class UpdateManager {
 
-    public static void checkUpdate() {
+    public static void checkUpdates() {
 
         // Try to open connection to the Modrinth API
         try {
@@ -34,7 +34,7 @@ public class UpdateChecker {
 
                 // Compare with the current plugin version
                 if (!MayaHub.getInstance().getPluginMeta().getVersion().equals(latestVersion)) {
-                    Bukkit.getLogger().info("A new version of MayaHub is available: " + latestVersion + ".");
+                    Bukkit.getLogger().info("A new version of MAYA: Hub is available: " + latestVersion + ".");
 
                     // Try to get the first download URL
                     JsonArray filesArray = (latestVersionObj.getAsJsonArray("files"));

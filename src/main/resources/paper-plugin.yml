@@ -1,5 +1,5 @@
 name: MayaHub
-version: '1.0.2'
+version: '1.0.3'
 main: me.seedim.mayaHub.MayaHub
 authors:
   - Seedim

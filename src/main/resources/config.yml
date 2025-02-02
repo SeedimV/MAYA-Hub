@@ -24,6 +24,11 @@ disable-hunger: true
 # - false: Players can take damage as usual.
 disable-player-damage: true
 
+# Do void damage:
+# - true: Players will take damage from void (or world border)
+# - false: Players won't die in void
+do-void-damage: true
+
 # World spawn point settings:
 # Define the spawn location for the world.
 # Use the /setspawn command in-game to set these values automatically.
@@ -59,7 +64,6 @@ chat:
 
   # Chat message format
   chat-format: '%player%: %message%'
-
 
   # Placeholders available for join and quit messages:
   # - %player%: Displays the player's name.
